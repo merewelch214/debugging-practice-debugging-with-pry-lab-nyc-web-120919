@@ -10,12 +10,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  array_o_traits = []
   turtles.map do |turtle|
     array_o_traits << turtle[:traits]
-    #turtle[:traits].each do |trait|
-      #trait
-      #binding.pry
-    #end
   end
 end
