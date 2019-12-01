@@ -13,7 +13,7 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
     if turtle[:traits].is_a?(Array) 
       turtle[:traits]
-    else Array.turtle[:traits] 
+    else Array(turtle[:traits])
   end
   end
 end
