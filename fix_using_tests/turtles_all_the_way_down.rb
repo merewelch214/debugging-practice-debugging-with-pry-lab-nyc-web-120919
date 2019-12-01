@@ -16,6 +16,6 @@ def turtle_traits(turtles)
     #turtle[:traits].each do |trait|
       #trait
       #binding.pry
-    end
+    #end
   end
 end
