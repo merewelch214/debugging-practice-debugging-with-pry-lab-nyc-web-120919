@@ -10,9 +10,9 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  #array_o_traits = []
+  array_o_traits = []
   turtles.map do |turtle|
-    turtle[:traits].to_a
+    array_o_triats << turtle[:traits]
     #turtle[:traits].each do |trait|
       #trait
       #binding.pry
