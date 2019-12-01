@@ -3,6 +3,7 @@ def snake_it_up(string)
   empty = ""
   (1..10).each do |n|
     empty += "s"
+  end
   empty + string
   else
   string
