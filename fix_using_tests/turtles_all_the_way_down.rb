@@ -15,4 +15,5 @@ def turtle_traits(turtles)
       turtle[:traits]
     else Array.turtle[:traits] 
   end
+  end
 end
