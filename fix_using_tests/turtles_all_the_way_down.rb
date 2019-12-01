@@ -10,7 +10,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  array_o_traits = []
+  #array_o_traits = []
   turtles.map do |turtle|
     turtle[:traits].map do |trait|
       trait
