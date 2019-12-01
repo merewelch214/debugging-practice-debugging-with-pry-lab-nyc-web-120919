@@ -5,9 +5,9 @@ def snake_it_up(string)
   empty = ""
   (1..10).each do |n|
     empty += "s"
-    binding.pry
   end
    empty + string
+    binding.pry
   else
   string
   end
