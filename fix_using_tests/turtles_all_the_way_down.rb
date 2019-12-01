@@ -11,6 +11,8 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    if isArray(turtle[:traits]) turtle[:traits]
+    if turtle[:traits].is_a?(Array) 
+      turtle[:traits]
+    else turtle[:traits] 
   end
 end
